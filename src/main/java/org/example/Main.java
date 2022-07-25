@@ -7,10 +7,6 @@ public class Main {
         System.out.println((iterator.hasNext()));
         System.out.println(iterator.next());
         iterator.remove();
-        System.out.println(iterator.next());
-        iterator.remove();
-        System.out.println(iterator.next());
-        System.out.println(iterator.next());
         iterator.print();
     }
 }

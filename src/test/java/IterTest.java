@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.NoSuchElementException;
 
 
+
 public class IterTest {
     @Test
     public void hasNext_isOk() {
