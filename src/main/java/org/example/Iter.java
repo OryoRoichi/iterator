@@ -14,7 +14,7 @@ public class Iter {
     }
 
     public boolean hasNext() {
-        if (index < arr.length - 1) {
+        if (index < arr.length) {
             return true;
         } else {
             return false;

@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.NoSuchElementException;
 
 public class IterTest {
+
     @Test
     public void hasNext_isOk() {
         Iter iter = new Iter("1", "2");
@@ -23,6 +24,7 @@ public class IterTest {
     @Test
     public void next_shouldThrowException() {
         Iter iter = new Iter("1");
+        Assertions.assertTrue(iter.hasNext());
         iter.next();
         Assertions.assertThrows(NoSuchElementException.class, () -> iter.next());
     }
