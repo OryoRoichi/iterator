@@ -21,7 +21,6 @@ public class Iter {
         }
     }
 
-
     public String next() throws NoSuchElementException {
         if (index <= arr.length - 1) {
             flag = true;
